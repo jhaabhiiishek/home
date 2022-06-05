@@ -9,7 +9,7 @@
 }
 
 hr{
-    border: dotted #Eaf6f6 6px;
+    border: dotted #c6e9e9 6px;
     border-bottom: none;
     width: 4%;
     margin: 75px auto 75px auto;
@@ -121,7 +121,41 @@ h3{
     background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
     text-decoration: none;
 }
-/* font-family: 'Merriweather', serif;
-font-family: 'Montserrat', sans-serif;
-font-family: 'Poppins', sans-serif;
-font-family: 'Sacramento', cursive; */
+
+.footer-link{
+    width: 4%;
+}
+
+@media (max-width : 850px){
+    #zero{
+        width: 100%;
+    }
+    #mountain{
+        width: 100%;
+    }
+    #topCloud{
+        display:none ;
+    }
+    #bottomCloud{
+        display:none ;
+    }
+    h1{
+        margin-top: 6px;
+    }
+    #wd{
+        margin-top: 1%;
+    }
+    #profile-text{
+        padding: 7% 15%;
+    }
+    hr{
+        margin: 20px auto 35px auto;
+    }
+    .skill-row{
+        width: 75%;
+        margin: 50px auto 25px auto;
+    }
+    .footer-link{
+        width: 8%;
+    }
+}
